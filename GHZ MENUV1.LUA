@@ -169,7 +169,7 @@ local fn = {
         end 
     end,
     
-    cb1=function(s) 
+    nowall=function(s) 
         if s then 
             loadstring(game:HttpGet("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/NO%20WALL%20ON.LUA"))()
         else 
